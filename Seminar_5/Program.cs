@@ -1,5 +1,5 @@
 ﻿// Задайте массив из 12 элементов, заполненный случайными числами из промежутка [-9, 9]. Найдите сумму отрицательных элементов массива.
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue) // генерирует массив с заданными параметрами
 {
     int[] array = new int[size];
@@ -34,6 +34,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(size, min, max);
 ShowArray(myArray);
+*/
 /*
 int result = GetSumOfNegatives(myArray);
 Console.WriteLine("Sum of negative elements is" + (GetSumOfNegatives{sum}));
@@ -42,7 +43,7 @@ Console.WriteLine("Sum of negative elements is" + (GetSumOfNegatives{sum}));
 
 
 // Напишите программу замена элементов массива: положительные элементы замените на соответствующие отрицательные, и наоборот.
-
+/*
 int[] revers (int[] array)
 {
     for(int i = 0; i < array.Length; i++)
@@ -51,13 +52,14 @@ int[] revers (int[] array)
     }
     return array;
 }
+*/
 /*
 int[] result = revers(myArray);
 ShowArray(result);
 */
 
 // Задайте одномерный массив из m случайных чисел. Найдите количество элементов массива, значения которых лежат в отрезке [a,b].
-
+/*
 int Mult (int[] array, int a, int b)
 {
     int count = 0;
@@ -76,10 +78,10 @@ int numB = Convert.ToInt32(Console.ReadLine());
 
 int number = Mult(myArray, numA, numB);
 Console.WriteLine(number);
-
+*/
 
 // Найдите произведение пар чисел в одномерном массиве. Парой считаем первый и последний элемент, второй и предпоследний и т.д. Результат запишите в новом массиве.
-
+/*
 int[] MultPairs(int[] array)
 {
     int size = array.Length / 2;
@@ -96,9 +98,9 @@ int[] MultPairs(int[] array)
     return newArray;
 }
 
-//int[] result = MultPairs(myArray);
-//ShowArray(result);
-
+int[] result = MultPairs(myArray);
+ShowArray(result);
+*/
 
 
 
